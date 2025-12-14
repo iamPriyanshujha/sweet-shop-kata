@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+sqlmodel
+passlib[bcrypt]
+python-jose[cryptography]
+pytest
+httpx
+alembic
+# Using SQLite for setup, but keep psycopg2-binary for future PostgreSQL use
+psycopg2-binary
